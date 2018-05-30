@@ -8,5 +8,7 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib:/home/jin/catkin_ws/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/x86_64-linux-gnu"
+export PKG_CONFIG_PATH="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib/pkgconfig:/home/jin/catkin_ws/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/x86_64-linux-gnu/pkgconfig"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder:/home/jin/catkin_ws/src:/opt/ros/indigo/share:/opt/ros/indigo/stacks"
+export ROS_PACKAGE_PATH="/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder:$ROS_PACKAGE_PATH"

@@ -10,4 +10,7 @@ set(realsense_recorder_EXEC_DEPENDS "roscpp" "std_msgs" "tf" "sensor_msgs" "imag
 set(realsense_recorder_RUN_DEPENDS "roscpp" "std_msgs" "tf" "sensor_msgs" "image_transport" "cv_bridge" "libpcl-all")
 set(realsense_recorder_TEST_DEPENDS )
 set(realsense_recorder_DOC_DEPENDS )
+set(realsense_recorder_URL_WEBSITE "")
+set(realsense_recorder_URL_BUGTRACKER "")
+set(realsense_recorder_URL_REPOSITORY "")
 set(realsense_recorder_DEPRECATED "")

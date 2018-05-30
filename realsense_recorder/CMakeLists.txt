@@ -5,8 +5,8 @@ project(realsense_recorder)
 # SET(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 
 # SET("OpenCV_DIR" "/home/jin/Third_Party_Packages/opencv-2.4.13/build")
-SET("OpenCV_DIR" "/home/jin/Third_Party_Packages/opencv-2.4.13/build")
-  find_package(OpenCV REQUIRED)
+SET("OpenCV_DIR" "/home/jin/Third_Party_Packages/opencv-3.4.1/build")
+find_package(OpenCV REQUIRED)
 
 include_directories(
   ${OpenCV_INCLUDE_DIRS}
@@ -41,5 +41,5 @@ include_directories(
 add_executable(save_data src/save_data.cpp)
 target_link_libraries(save_data ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
 
-add_executable(extract_RosBag src/extract_RosBag.cpp)
-target_link_libraries(extract_RosBag ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
+# add_executable(extract_RosBag src/extract_RosBag.cpp)
+# target_link_libraries(extract_RosBag ${catkin_LIBRARIES} ${OpenCV_LIBRARIES})
