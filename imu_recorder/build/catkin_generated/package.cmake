@@ -10,7 +10,10 @@ set(imu_recorder_EXEC_DEPENDS "roscpp" "std_msgs")
 set(imu_recorder_RUN_DEPENDS "roscpp" "std_msgs")
 set(imu_recorder_TEST_DEPENDS )
 set(imu_recorder_DOC_DEPENDS )
+<<<<<<< HEAD
 set(imu_recorder_URL_WEBSITE "")
 set(imu_recorder_URL_BUGTRACKER "")
 set(imu_recorder_URL_REPOSITORY "")
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 set(imu_recorder_DEPRECATED "")

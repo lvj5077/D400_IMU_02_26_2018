@@ -128,6 +128,7 @@ devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libboost_date_
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+<<<<<<< HEAD
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_stitching.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_viz.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_superres.so.3.4.1
@@ -139,11 +140,28 @@ devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_features2d.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_objdetect.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_photo.so.3.4.1
+=======
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_ml.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_videostab.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_objdetect.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_photo.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_superres.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_viz.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_shape.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_video.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_stitching.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_dnn.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_calib3d.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_features2d.so.3.4.1
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_highgui.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_flann.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_videoio.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_imgcodecs.so.3.4.1
+<<<<<<< HEAD
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_video.so.3.4.1
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_imgproc.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_core.so.3.4.1
 devel/lib/realsense_recorder/save_data: CMakeFiles/save_data.dir/link.txt

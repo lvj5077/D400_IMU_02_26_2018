@@ -11,8 +11,11 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
+<<<<<<< HEAD
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   "catkin/catkin_generated/version/package.cmake"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/ordered_paths.cmake"
@@ -163,6 +166,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcpp-extras.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig-version.cmake"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/xmlrpcppConfig.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.5/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
@@ -239,14 +243,33 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.5/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/usr/share/cmake-3.5/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+=======
+  "/usr/share/cmake-3.5/Modules/CMakeCInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeLanguageInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeParseArguments.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake-3.5/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.5/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.5/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake-3.5/Modules/CheckSymbolExists.cmake"
+  "/usr/share/cmake-3.5/Modules/Compiler/GNU-C.cmake"
+  "/usr/share/cmake-3.5/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/share/cmake-3.5/Modules/Compiler/GNU.cmake"
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   "/usr/share/cmake-3.5/Modules/FindGTest.cmake"
   "/usr/share/cmake-3.5/Modules/FindPackageHandleStandardArgs.cmake"
   "/usr/share/cmake-3.5/Modules/FindPackageMessage.cmake"
   "/usr/share/cmake-3.5/Modules/FindPythonInterp.cmake"
   "/usr/share/cmake-3.5/Modules/FindThreads.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.5/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.5/Modules/MultiArchCross.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-CXX.cmake"
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.5/Modules/Platform/Linux-GNU.cmake"
@@ -265,11 +288,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.5.1/CMakeSystem.cmake"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.5.1/CMakeCXXCompiler.cmake"
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   "catkin_generated/stamps/realsense_recorder/package.xml.stamp"
   "catkin_generated/installspace/_setup_util.py"
   "catkin_generated/stamps/realsense_recorder/_setup_util.py.stamp"

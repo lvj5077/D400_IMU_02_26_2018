@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
   const char features[] = {"\n"
+=======
+  const char features[] = {""
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 "C_FEATURE:"
 #if (__GNUC__ * 100 + __GNUC_MINOR__) >= 404
 "1"

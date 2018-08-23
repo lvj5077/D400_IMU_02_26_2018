@@ -94,6 +94,7 @@ set(imu_recorder_FOUND_CATKIN_PROJECT TRUE)
 if(NOT " " STREQUAL " ")
   set(imu_recorder_INCLUDE_DIRS "")
   set(_include_dirs "")
+<<<<<<< HEAD
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -101,16 +102,25 @@ if(NOT " " STREQUAL " ")
   else()
     set(_report "Report the problem to the maintainer 'davidz <davidz@todo.todo>' and request to fix the problem.")
   endif()
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
     elseif("${idir} " STREQUAL "include ")
       get_filename_component(include "${imu_recorder_DIR}/../../../include" ABSOLUTE)
       if(NOT IS_DIRECTORY ${include})
+<<<<<<< HEAD
         message(FATAL_ERROR "Project 'imu_recorder' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
       message(FATAL_ERROR "Project 'imu_recorder' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/usr/local/${idir}'.  ${_report}")
+=======
+        message(FATAL_ERROR "Project 'imu_recorder' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'davidz <davidz@todo.todo>' to fix it.")
+      endif()
+    else()
+      message(FATAL_ERROR "Project 'imu_recorder' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/usr/local/${idir}'.  Ask the maintainer 'davidz <davidz@todo.todo>' to fix it.")
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
     endif()
     _list_append_unique(imu_recorder_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +139,11 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
+<<<<<<< HEAD
     foreach(path /usr/local/lib;/home/jin/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+=======
+    foreach(path /usr/local/lib;/home/jin/catkin_ws/devel/lib;/opt/ros/indigo/lib)
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)
@@ -169,12 +183,20 @@ foreach(depend ${depends})
   if(${count} EQUAL 1)
     # simple dependencies must only be find_package()-ed once
     if(NOT ${imu_recorder_dep}_FOUND)
+<<<<<<< HEAD
       find_package(${imu_recorder_dep} REQUIRED NO_MODULE)
+=======
+      find_package(${imu_recorder_dep} REQUIRED)
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
     endif()
   else()
     # dependencies with components must be find_package()-ed again
     list(REMOVE_AT depend_list 0)
+<<<<<<< HEAD
     find_package(${imu_recorder_dep} REQUIRED NO_MODULE ${depend_list})
+=======
+    find_package(${imu_recorder_dep} REQUIRED ${depend_list})
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   endif()
   _list_append_unique(imu_recorder_INCLUDE_DIRS ${${imu_recorder_dep}_INCLUDE_DIRS})
 

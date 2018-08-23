@@ -172,7 +172,11 @@ void asyncDataListener(void* sender, VnDeviceCompositeData* data)
 
         if(pf != 0)
         {
+<<<<<<< HEAD
           (*pf) << std::fixed<< std::setprecision(9)<< t.toSec()<<"\t"<< 
+=======
+          (*pf) << std::fixed<< t.toSec()<<"\t"<< 
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
                 data->acceleration.c0 << "\t"<<
                 data->acceleration.c1 << "\t"<<
                 data->acceleration.c2 << "\t"<<

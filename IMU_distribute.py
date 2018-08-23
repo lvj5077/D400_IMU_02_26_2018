@@ -15,10 +15,17 @@ with open("/home/jin/Data_Capture/imu_vn100.log", 'rb') as imu_file:
 			first = 0
 			output_file.write(tokens[0]+" "+ tokens[1]+" "+tokens[2]+" "+ tokens[3]+" "+tokens[4]+" "+ tokens[5]+" "+tokens[6]+" "+ tokens[7]+" "+tokens[8]+" "+tokens[9]+"\n")
 			timestamp =float(tokens[0])
+<<<<<<< HEAD
 			dis = 0.005 # (cur_time-timestamp)/count
 		else:
 			timestamp = timestamp+dis
 			output_file.write(str('%12.9f' %timestamp)+" "+ tokens[1]+" "+tokens[2]+" "+ tokens[3]+" "+tokens[4]+" "+ tokens[5]+" "+tokens[6]+" "+ tokens[7]+" "+tokens[8]+" "+tokens[9]+"\n")
+=======
+			dis = (cur_time-timestamp)/count
+		else:
+			timestamp = timestamp+dis
+			output_file.write(str('%12.6f' %timestamp)+" "+ tokens[1]+" "+tokens[2]+" "+ tokens[3]+" "+tokens[4]+" "+ tokens[5]+" "+tokens[6]+" "+ tokens[7]+" "+tokens[8]+" "+tokens[9]+"\n")
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
 output_file.close()
 

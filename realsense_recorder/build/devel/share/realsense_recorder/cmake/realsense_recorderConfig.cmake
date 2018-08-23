@@ -99,7 +99,11 @@ if(NOT " " STREQUAL " ")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
+<<<<<<< HEAD
     set(_report "Report the problem to the maintainer 'lingqiu <lingqiujin@gmail.com>' and request to fix the problem.")
+=======
+    set(_report "Report the problem to the maintainer 'davidz <lingqiujin@gmail.com>' and request to fix the problem.")
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})

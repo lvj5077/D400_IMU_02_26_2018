@@ -189,9 +189,12 @@ EMPY_EXECUTABLE:FILEPATH=/usr/bin/empy
 //Empy script
 EMPY_SCRIPT:STRING=/usr/bin/empy
 
+<<<<<<< HEAD
 //The directory containing a CMake configuration file for GMock.
 GMock_DIR:PATH=GMock_DIR-NOTFOUND
 
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 //Path to a file.
 GTEST_INCLUDE_DIR:PATH=/usr/include
 
@@ -234,15 +237,19 @@ UBUNTU:BOOL=TRUE
 //LSB Distrib - codename tag
 UBUNTU_TRUSTY:BOOL=TRUE
 
+<<<<<<< HEAD
 //LSB Distrib - codename tag
 UBUNTU_XENIAL:BOOL=TRUE
 
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 //Path to a file.
 _CATKIN_GTEST_INCLUDE:FILEPATH=/usr/include/gtest/gtest.h
 
 //Path to a file.
 _CATKIN_GTEST_SRC:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+<<<<<<< HEAD
 //Path to a file.
 _gmock_INCLUDES:FILEPATH=/usr/include/gmock/gmock.h
 
@@ -278,6 +285,16 @@ gmock_main_LIB_DEPENDS:STATIC=general;-lpthread;
 
 //Value Computed by CMake
 gtest_BINARY_DIR:STATIC=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gtest/gtest
+=======
+//The directory containing a CMake configuration file for catkin.
+catkin_DIR:PATH=/opt/ros/indigo/share/catkin/cmake
+
+//The directory containing a CMake configuration file for cpp_common.
+cpp_common_DIR:PATH=/opt/ros/indigo/share/cpp_common/cmake
+
+//Value Computed by CMake
+gtest_BINARY_DIR:STATIC=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gtest
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
 //Dependencies for the target
 gtest_LIB_DEPENDS:STATIC=general;-lpthread;
@@ -308,6 +325,7 @@ imu_recorder_BINARY_DIR:STATIC=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_rec
 imu_recorder_SOURCE_DIR:STATIC=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/src
 
 //Path to a library.
+<<<<<<< HEAD
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
 
 //The directory containing a CMake configuration file for message_runtime.
@@ -333,12 +351,43 @@ rostime_DIR:PATH=/opt/ros/kinetic/share/rostime/cmake
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/kinetic/share/std_msgs/cmake
+=======
+lib:FILEPATH=/opt/ros/indigo/lib/libxmlrpcpp.so
+
+//The directory containing a CMake configuration file for message_runtime.
+message_runtime_DIR:PATH=/opt/ros/indigo/share/message_runtime/cmake
+
+//The directory containing a CMake configuration file for rosconsole.
+rosconsole_DIR:PATH=/opt/ros/indigo/share/rosconsole/cmake
+
+//The directory containing a CMake configuration file for roscpp.
+roscpp_DIR:PATH=/opt/ros/indigo/share/roscpp/cmake
+
+//The directory containing a CMake configuration file for roscpp_serialization.
+roscpp_serialization_DIR:PATH=/opt/ros/indigo/share/roscpp_serialization/cmake
+
+//The directory containing a CMake configuration file for roscpp_traits.
+roscpp_traits_DIR:PATH=/opt/ros/indigo/share/roscpp_traits/cmake
+
+//The directory containing a CMake configuration file for rosgraph_msgs.
+rosgraph_msgs_DIR:PATH=/opt/ros/indigo/share/rosgraph_msgs/cmake
+
+//The directory containing a CMake configuration file for rostime.
+rostime_DIR:PATH=/opt/ros/indigo/share/rostime/cmake
+
+//The directory containing a CMake configuration file for std_msgs.
+std_msgs_DIR:PATH=/opt/ros/indigo/share/std_msgs/cmake
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
 //Dependencies for the target
 vn100_LIB_DEPENDS:STATIC=general;pthread;general;rt;
 
 //The directory containing a CMake configuration file for xmlrpcpp.
+<<<<<<< HEAD
 xmlrpcpp_DIR:PATH=/opt/ros/kinetic/share/xmlrpcpp/cmake
+=======
+xmlrpcpp_DIR:PATH=/opt/ros/indigo/share/xmlrpcpp/cmake
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
 
 ########################
@@ -355,9 +404,15 @@ CMAKE_CACHEFILE_DIR:INTERNAL=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recor
 //Major version of cmake used to create the current loaded cache
 CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 //Minor version of cmake used to create the current loaded cache
+<<<<<<< HEAD
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=5
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=1
+=======
+CMAKE_CACHE_MINOR_VERSION:INTERNAL=2
+//Patch version of cmake used to create the current loaded cache
+CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 //ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
 CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
@@ -443,8 +498,11 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
 CMAKE_NUMBER_OF_LOCAL_GENERATORS:INTERNAL=3
+<<<<<<< HEAD
 //number of local generators
 CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -452,7 +510,11 @@ CMAKE_OBJDUMP-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_RANLIB
 CMAKE_RANLIB-ADVANCED:INTERNAL=1
 //Path to CMake installation.
+<<<<<<< HEAD
 CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.5
+=======
+CMAKE_ROOT:INTERNAL=/usr/share/cmake-3.2
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS
 CMAKE_SHARED_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_SHARED_LINKER_FLAGS_DEBUG
@@ -486,6 +548,7 @@ CMAKE_USE_RELATIVE_PATHS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding PythonInterp
+<<<<<<< HEAD
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.12()]
 //Details about finding Threads
 FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
@@ -494,6 +557,11 @@ GMOCK_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GMOCK_FROM_SOURCE_LIBRARIES:INTERNAL=gmock
 GMOCK_FROM_SOURCE_LIBRARY_DIRS:INTERNAL=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gmock
 GMOCK_FROM_SOURCE_MAIN_LIBRARIES:INTERNAL=gmock_main
+=======
+FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python][v2.7.6()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 GTEST_FROM_SOURCE_FOUND:INTERNAL=TRUE
 GTEST_FROM_SOURCE_INCLUDE_DIRS:INTERNAL=/usr/include
 GTEST_FROM_SOURCE_LIBRARIES:INTERNAL=gtest

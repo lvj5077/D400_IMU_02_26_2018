@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/rebuild_cache.dir
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/test.dir
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/install/strip.dir
@@ -52,3 +53,23 @@
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/src/CMakeFiles/imu_vn100_recorder.dir
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/src/CMakeFiles/install/strip.dir
 /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/src/CMakeFiles/edit_cache.dir
+=======
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/roscpp_generate_messages_lisp.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/download_extra_data.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/src/CMakeFiles/imu_vn100_recorder.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/src/CMakeFiles/vn100.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/std_msgs_generate_messages_cpp.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gtest/CMakeFiles/gtest.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/roscpp_generate_messages_cpp.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/rosgraph_msgs_generate_messages_py.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/tests.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/doxygen.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gtest/CMakeFiles/gtest_main.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/std_msgs_generate_messages_lisp.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/clean_test_results.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/run_tests.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/roscpp_generate_messages_py.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/std_msgs_generate_messages_py.dir
+/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4

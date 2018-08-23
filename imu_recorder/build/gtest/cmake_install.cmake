@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /usr/src/gmock
+=======
+# Install script for directory: /usr/src/gtest
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,9 +36,12 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
+<<<<<<< HEAD
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/gtest/gtest/cmake_install.cmake")
 
 endif()
 
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4

@@ -594,6 +594,7 @@ Linking C executable cmTryCompileExec2519032207
 make[1]: Leaving directory `/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/CMakeFiles/CMakeTmp'
 
 
+<<<<<<< HEAD
 The system is: Linux - 4.15.0-24-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
@@ -1172,3 +1173,5 @@ make[1]: Leaving directory '/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_record
     Feature record: CXX_FEATURE:0cxx_variable_templates
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4

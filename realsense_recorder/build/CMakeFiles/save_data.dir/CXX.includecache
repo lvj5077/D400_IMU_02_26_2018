@@ -2375,8 +2375,11 @@ ros/message_operations.h
 -
 
 /opt/ros/kinetic/include/sensor_msgs/image_encodings.h
+<<<<<<< HEAD
 cstdlib
 -
+=======
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 stdexcept
 -
 string

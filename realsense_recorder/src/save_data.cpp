@@ -74,7 +74,11 @@ void ImageGrabber(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::Im
     stringstream tt;
     tt << msgRGB->header.stamp ;
     string tt_name = tt.str();
+<<<<<<< HEAD
     string time_stamp = tt_name; //tt_name.substr (0,17);
+=======
+    string time_stamp = tt_name.substr (0,17);
+>>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 
     imwrite( gDir + "/" + gDataName + "/color/" + time_stamp+".png", cv_ptrRGB->image);
     // imwrite( gDir + "/" + gDataName + "/aligned_depth/" + tt_name+".png", cv_ptrAD->image);
