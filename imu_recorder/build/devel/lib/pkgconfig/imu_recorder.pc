@@ -1,0 +1,8 @@
+prefix=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/devel
+
+Name: imu_recorder
+Description: Description of imu_recorder
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/imu_recorder/build/devel/lib 
+Requires: roscpp std_msgs std_msgs

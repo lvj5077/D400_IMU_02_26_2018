@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC   -shared -Wl,-soname,libvn100.so -o ../devel/lib/libvn100.so CMakeFiles/vn100.dir/vn100.c.o CMakeFiles/vn100.dir/vncp_services.c.o CMakeFiles/vn100.dir/vndevice.c.o -lpthread -lrt 

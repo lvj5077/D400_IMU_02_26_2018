@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: realsense_recorder
+Description: Description of realsense_recorder
+Version: 0.0.0
+Cflags: 
+Libs: -L/usr/local/lib 
+Requires: roscpp std_msgs tf std_msgs
