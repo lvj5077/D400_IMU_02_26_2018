@@ -74,11 +74,7 @@ void ImageGrabber(const sensor_msgs::ImageConstPtr& msgRGB,const sensor_msgs::Im
     stringstream tt;
     tt << msgRGB->header.stamp ;
     string tt_name = tt.str();
-<<<<<<< HEAD
-    string time_stamp = tt_name; //tt_name.substr (0,17);
-=======
-    string time_stamp = tt_name.substr (0,17);
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
+    string time_stamp = tt_name; 
 
     imwrite( gDir + "/" + gDataName + "/color/" + time_stamp+".png", cv_ptrRGB->image);
     // imwrite( gDir + "/" + gDataName + "/aligned_depth/" + tt_name+".png", cv_ptrAD->image);
@@ -134,7 +130,7 @@ int main(int argc, char* argv[])
   // tsfile << "index  timestamp\n";
 
   int q = 7; 
-  message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, "/camera/color/image_raw", q);
+  message_filters::Subscriber<sensor_msgs::Image> rgb_sub(nh, "/camera/color/image_rect_color", q);
 
   message_filters::Subscriber<sensor_msgs::Image> Adepth_sub(nh, "/camera/aligned_depth_to_color/image_raw", q); 
 

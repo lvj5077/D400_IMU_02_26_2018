@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder
+CMAKE_SOURCE_DIR = /home/jin/D400_IMU_02_26_2018/realsense_recorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build
+CMAKE_BINARY_DIR = /home/jin/D400_IMU_02_26_2018/realsense_recorder/build
 
 # Utility rule file for tf2_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend:
-	cd /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jin/D400_IMU_02_26_2018/realsense_recorder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/tf2_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tf2_msgs_generate_messages_lisp.dir/depend
 

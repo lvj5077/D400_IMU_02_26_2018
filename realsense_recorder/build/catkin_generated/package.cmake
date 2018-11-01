@@ -1,10 +1,6 @@
 set(_CATKIN_CURRENT_PACKAGE "realsense_recorder")
 set(realsense_recorder_VERSION "0.0.0")
-<<<<<<< HEAD
 set(realsense_recorder_MAINTAINER "lingqiu <lingqiujin@gmail.com>")
-=======
-set(realsense_recorder_MAINTAINER "davidz <lingqiujin@gmail.com>")
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 set(realsense_recorder_PACKAGE_FORMAT "1")
 set(realsense_recorder_BUILD_DEPENDS "roscpp" "std_msgs" "tf" "sensor_msgs" "image_transport" "cv_bridge" "libpcl-all-dev")
 set(realsense_recorder_BUILD_EXPORT_DEPENDS "roscpp" "std_msgs" "tf" "sensor_msgs" "image_transport" "cv_bridge" "libpcl-all")

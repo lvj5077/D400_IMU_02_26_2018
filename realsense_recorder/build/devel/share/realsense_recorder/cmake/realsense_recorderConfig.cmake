@@ -67,8 +67,8 @@ set(realsense_recorder_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(realsense_recorder_SOURCE_PREFIX /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder)
-  set(realsense_recorder_DEVEL_PREFIX /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel)
+  set(realsense_recorder_SOURCE_PREFIX /home/jin/D400_IMU_02_26_2018/realsense_recorder)
+  set(realsense_recorder_DEVEL_PREFIX /home/jin/D400_IMU_02_26_2018/realsense_recorder/build/devel)
   set(realsense_recorder_INSTALL_PREFIX "")
   set(realsense_recorder_PREFIX ${realsense_recorder_DEVEL_PREFIX})
 else()
@@ -99,11 +99,7 @@ if(NOT " " STREQUAL " ")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
-<<<<<<< HEAD
     set(_report "Report the problem to the maintainer 'lingqiu <lingqiujin@gmail.com>' and request to fix the problem.")
-=======
-    set(_report "Report the problem to the maintainer 'davidz <lingqiujin@gmail.com>' and request to fix the problem.")
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
@@ -114,7 +110,7 @@ if(NOT " " STREQUAL " ")
         message(FATAL_ERROR "Project 'realsense_recorder' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'realsense_recorder' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'realsense_recorder' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/jin/D400_IMU_02_26_2018/realsense_recorder/${idir}'.  ${_report}")
     endif()
     _list_append_unique(realsense_recorder_INCLUDE_DIRS ${include})
   endforeach()
@@ -133,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib;/home/jin/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib;/home/jin/catkin_ws/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

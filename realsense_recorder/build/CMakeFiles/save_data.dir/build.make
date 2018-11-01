@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder
+CMAKE_SOURCE_DIR = /home/jin/D400_IMU_02_26_2018/realsense_recorder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build
+CMAKE_BINARY_DIR = /home/jin/D400_IMU_02_26_2018/realsense_recorder/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/save_data.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/save_data.dir/flags.make
 
 CMakeFiles/save_data.dir/src/save_data.cpp.o: CMakeFiles/save_data.dir/flags.make
 CMakeFiles/save_data.dir/src/save_data.cpp.o: ../src/save_data.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/save_data.dir/src/save_data.cpp.o"
-	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/save_data.dir/src/save_data.cpp.o -c /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/save_data.dir/src/save_data.cpp.o"
+	g++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/save_data.dir/src/save_data.cpp.o -c /home/jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp
 
 CMakeFiles/save_data.dir/src/save_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/save_data.dir/src/save_data.cpp.i"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp > CMakeFiles/save_data.dir/src/save_data.cpp.i
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp > CMakeFiles/save_data.dir/src/save_data.cpp.i
 
 CMakeFiles/save_data.dir/src/save_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/save_data.dir/src/save_data.cpp.s"
-	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp -o CMakeFiles/save_data.dir/src/save_data.cpp.s
+	g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp -o CMakeFiles/save_data.dir/src/save_data.cpp.s
 
 CMakeFiles/save_data.dir/src/save_data.cpp.o.requires:
 
@@ -128,44 +128,26 @@ devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libboost_date_
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libpthread.so
 devel/lib/realsense_recorder/save_data: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-<<<<<<< HEAD
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_stitching.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_viz.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_superres.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_ml.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_dnn.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_objdetect.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_videostab.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_ml.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_viz.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_stitching.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_photo.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_shape.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_superres.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_calib3d.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_features2d.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_objdetect.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_photo.so.3.4.1
-=======
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_ml.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_videostab.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_objdetect.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_photo.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_superres.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_viz.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_shape.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_video.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_stitching.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_dnn.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_calib3d.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_features2d.so.3.4.1
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_highgui.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_flann.so.3.4.1
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_highgui.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_videoio.so.3.4.1
-devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_imgcodecs.so.3.4.1
-<<<<<<< HEAD
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_video.so.3.4.1
-=======
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
+devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_imgcodecs.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_imgproc.so.3.4.1
 devel/lib/realsense_recorder/save_data: /home/jin/Third_Party_Packages/opencv-3.4.1/build/lib/libopencv_core.so.3.4.1
 devel/lib/realsense_recorder/save_data: CMakeFiles/save_data.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable devel/lib/realsense_recorder/save_data"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable devel/lib/realsense_recorder/save_data"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/save_data.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,6 +164,6 @@ CMakeFiles/save_data.dir/clean:
 .PHONY : CMakeFiles/save_data.dir/clean
 
 CMakeFiles/save_data.dir/depend:
-	cd /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/save_data.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jin/D400_IMU_02_26_2018/realsense_recorder/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/D400_IMU_02_26_2018/realsense_recorder /home/jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/D400_IMU_02_26_2018/realsense_recorder/build /home/jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/save_data.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/save_data.dir/depend
 

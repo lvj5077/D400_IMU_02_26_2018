@@ -1,8 +1,8 @@
-prefix=/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel
+prefix=/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/devel
 
 Name: realsense_recorder
 Description: Description of realsense_recorder
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib 
+Libs: -L/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/devel/lib 
 Requires: roscpp std_msgs tf std_msgs

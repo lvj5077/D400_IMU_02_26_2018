@@ -1,4 +1,4 @@
-# Install script for directory: /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder
+# Install script for directory: /home/jin/D400_IMU_02_26_2018/realsense_recorder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -63,7 +63,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE PROGRAM FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -75,7 +75,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -87,7 +87,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -99,7 +99,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -111,27 +111,27 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/usr/local" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorder.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorder.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_recorder/cmake" TYPE FILE FILES
-    "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorderConfig.cmake"
-    "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorderConfig-version.cmake"
+    "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorderConfig.cmake"
+    "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/catkin_generated/installspace/realsense_recorderConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_recorder" TYPE FILE FILES "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/realsense_recorder" TYPE FILE FILES "/home/jin/D400_IMU_02_26_2018/realsense_recorder/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/gtest/cmake_install.cmake")
+  include("/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/gtest/cmake_install.cmake")
 
 endif()
 
@@ -143,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

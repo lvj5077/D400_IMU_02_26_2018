@@ -67,8 +67,8 @@ set(realsense_recorder_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(realsense_recorder_SOURCE_PREFIX /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder)
-  set(realsense_recorder_DEVEL_PREFIX /home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/devel)
+  set(realsense_recorder_SOURCE_PREFIX /home/jin/D400_IMU_02_26_2018/realsense_recorder)
+  set(realsense_recorder_DEVEL_PREFIX /home/jin/D400_IMU_02_26_2018/realsense_recorder/build/devel)
   set(realsense_recorder_INSTALL_PREFIX "")
   set(realsense_recorder_PREFIX ${realsense_recorder_DEVEL_PREFIX})
 else()
@@ -99,11 +99,7 @@ if(NOT " " STREQUAL " ")
   elseif(NOT " " STREQUAL " ")
     set(_report "Check the website '' for information and consider reporting the problem.")
   else()
-<<<<<<< HEAD
     set(_report "Report the problem to the maintainer 'lingqiu <lingqiujin@gmail.com>' and request to fix the problem.")
-=======
-    set(_report "Report the problem to the maintainer 'davidz <lingqiujin@gmail.com>' and request to fix the problem.")
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
   endif()
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})

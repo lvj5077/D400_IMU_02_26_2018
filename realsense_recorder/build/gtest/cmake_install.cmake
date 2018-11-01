@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/gtest/gtest/cmake_install.cmake")
+  include("/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/gtest/gtest/cmake_install.cmake")
 
 endif()
 

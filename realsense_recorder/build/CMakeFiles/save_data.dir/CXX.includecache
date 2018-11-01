@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp
+/home/jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp
 iostream
 -
 fstream
@@ -2375,11 +2375,8 @@ ros/message_operations.h
 -
 
 /opt/ros/kinetic/include/sensor_msgs/image_encodings.h
-<<<<<<< HEAD
 cstdlib
 -
-=======
->>>>>>> 04de79dfdccf72673360917b92e1c1e17e60d1a4
 stdexcept
 -
 string

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp" "/home/jin/Lingqiu_Jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/save_data.dir/src/save_data.cpp.o"
+  "/home/jin/D400_IMU_02_26_2018/realsense_recorder/src/save_data.cpp" "/home/jin/D400_IMU_02_26_2018/realsense_recorder/build/CMakeFiles/save_data.dir/src/save_data.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
